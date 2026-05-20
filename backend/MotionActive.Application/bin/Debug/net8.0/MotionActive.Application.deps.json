@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MotionActive.Application/1.0.0": {
+        "dependencies": {
+          "MotionActive.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MotionActive.Application.dll": {}
+        }
+      },
+      "MotionActive.Domain/1.0.0": {
+        "runtime": {
+          "MotionActive.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MotionActive.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MotionActive.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

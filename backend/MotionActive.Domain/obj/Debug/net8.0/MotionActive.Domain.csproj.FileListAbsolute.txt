@@ -1,0 +1,12 @@
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\bin\Debug\net8.0\MotionActive.Domain.deps.json
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\bin\Debug\net8.0\MotionActive.Domain.dll
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\bin\Debug\net8.0\MotionActive.Domain.pdb
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\MotionActive.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\MotionActive.Domain.AssemblyInfoInputs.cache
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\MotionActive.Domain.AssemblyInfo.cs
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\MotionActive.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\MotionActive.Domain.sourcelink.json
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\MotionActive.Domain.dll
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\refint\MotionActive.Domain.dll
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\MotionActive.Domain.pdb
+C:\Users\mubzm\OneDrive\Desktop\projects\backend\MotionActive.Domain\obj\Debug\net8.0\ref\MotionActive.Domain.dll
