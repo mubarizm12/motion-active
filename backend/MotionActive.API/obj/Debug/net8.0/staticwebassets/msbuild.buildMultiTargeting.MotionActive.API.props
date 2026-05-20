@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\MotionActive.API.props" />
-</Project>
