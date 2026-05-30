@@ -4,12 +4,19 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using MotionActive.Infrastructure.Data;
+using MotionActive.Infrastructure.Repositories;
+using MotionActive.Application.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Repositories
+builder.Services.AddScoped<IRewardRepository, RewardRepository>();
+builder.Services.AddScoped<IRedemptionRepository, RedemptionRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // JWT Authentication
 var jwtKey = builder.Configuration["Jwt:Key"]!;

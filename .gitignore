@@ -1,0 +1,29 @@
+# Node
+node_modules/
+.expo/
+dist/
+
+# .NET
+**/bin/
+**/obj/
+
+# Broken/backup folders
+motion-active/broken-mobile-backup/
+motion-active/mobile-broken/
+motion-active/App.js
+motion-active/index.js
+motion-active/AGENTS.md
+motion-active/CLAUDE.md
+motion-active/LICENSE
+motion-active/.claude/
+motion-active/context/
+motion-active/services/
+
+# Environment
+.env
+*.user
+appsettings.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
