@@ -1,3 +1,39 @@
+# Motion Active
+
+A fitness rewards platform built for **Motion Sportswear**. Users track steps, earn Motion Points, and redeem them for real sportswear rewards. Compete on the global leaderboard to climb the ranks.
+
+Built as both a real product and a portfolio project demonstrating full-stack engineering across a polyglot architecture.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Backend | C# ASP.NET Core 8 |
+| Architecture | Clean Architecture (Domain / Application / Infrastructure / API) |
+| Database | PostgreSQL hosted on Supabase |
+| ORM | Entity Framework Core 8 with Npgsql |
+| Authentication | JWT Bearer tokens + BCrypt password hashing |
+| Documentation | Swagger / OpenAPI with JWT support |
+| Mobile | React Native with Expo SDK 54 (iOS) |
+
+---
+
+## Architecture
+projects/
+├── backend/
+│   ├── MotionActive.Domain/          → Entities, no dependencies
+│   ├── MotionActive.Application/     → Interfaces, DTOs, business logic
+│   ├── MotionActive.Infrastructure/  → EF Core, repositories, database
+│   └── MotionActive.API/             → Controllers, middleware, DI
+└── motion-active/
+└── mobile/                       → React Native iOS app
+├── app/
+│   ├── (auth)/               → Login, Register screens
+│   └── (tabs)/               → Home, Leaderboard, Rewards
+├── context/                  → Auth state management
+└── services/                 → Axios API client
 Dependencies only flow inward — the Domain has no knowledge of the database or web framework.
 
 ---
